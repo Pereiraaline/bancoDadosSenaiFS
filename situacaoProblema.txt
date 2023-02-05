@@ -1,0 +1,29 @@
+A Dataq é uma empresa focada no desenvolvimento de software, especializada na criação, manutenção, gerenciamento e segurança em banco de dados. Ela foi contratada por uma empresa especializada em jogos que deseja desenvolver um novo RPG online (Role-Playing Game ou jogo de Interpretação de Papéis em português).
+A Dataq contratou você para implementar o banco de dados que será desenvolvido para o cenário proposto que contempla os seguintes requisitos:
+
+ 
+=> Cada usuário do jogo poderá ter um personagem exclusivo;
+
+=> O personagem possuirá uma classe;
+
+=> Cada classe pode possuir uma ou mais habilidades.
+
+
+*Por exemplo, o usuário Aphonso possui o personagem DeuBug da classe Bárbaro, que possui as habilidades Lança Mortal e o Escudo Supremo.
+	DeuBug → classe Bárbaro → Lança Mortal → Escudo Supremo
+
+ 
+*O usuário Danox possui o personagem BitBug da classe Monge, que possui as habilidades de Recuperar Vida e o Escudo Supremo.
+	BitBug → classe Monge → Recuperar vida → Escudo Supremo
+
+ 
+
+Para conseguir implementar o banco de dados como proposto, você deverá vencer três desafios.
+
+·        Configurar o gerenciador de banco de dados;
+
+·        Modelar o projeto de banco de dados, aplicando procedimentos de normalização e padronização;
+
+·        Criar o banco de dados, aplicando regras de segurança e níveis hierárquicos.
+
+ 
