@@ -92,5 +92,11 @@ SELECT P.Nome, C.Nome 'Classe', C.Descricao FROM Personagens P
 JOIN Classes C
 ON P.IdClasse = C.IdClasse
 
+-- CRIANDO UMA PERMISSÃO
+CREATE LOGIN aluno
+WITH PASSWORD = '1234'
+
+CREATE USER aluno FOR LOGIN aluno
+GRANT SELECT TO aluno
 
 -- FIM DO SCRIPT
